@@ -168,18 +168,18 @@ public class Program {
 		int networkCount = 0;
 		for (NeuralNetwork network : c) {
 			int indexNeuronj = 0;
-			//STEP 3: for each Neuron in the hidden layer calculate it's in and a
+			//For each Neuron in the hidden layer calculate it's in and a
 			for (Neuron j: network.hiddenLayer){
 				j.in = getSum(indexNeuronj, inputWeights, network.inputLayer);
 				j.a = sigmoidActivationFunction(j.in);
 
 				indexNeuronj++;
 			}
-			//STEP 4: Calculate output
+			//Calculate output
 			network.output.in = getOutputSum(0,hiddenWeights, network.hiddenLayer);
 			network.output.a = sigmoidActivationFunction(network.output.in);
 			
-			//PRINT INFO. OUT AND DECIDE IF ARE FINISHED TRAINING:
+			//PRINT INFO. OUT
 			FileReader.displayln("Expected output: " + network.inputLayer[4].a);
 			FileReader.displayln("Actual output for this line of data: " + network.output.a);
 			double outputError = Math.abs(network.inputLayer[4].a - network.output.a); //compare against published CPU performance which is at index 4
