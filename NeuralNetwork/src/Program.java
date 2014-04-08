@@ -10,15 +10,15 @@ public class Program {
 	public static double[][] oldHiddenWeights = new double [3][1];
 	
 	static double learningRate = 0.5; //learning rate is between 0 and 1
-//	static double errorThreshold = 0.1;
-	static double errorThreshold = 0.01;
+	static double errorThreshold = 0.1;
+//	static double errorThreshold = 0.01;
 //	static double errorThreshold = 0.001;
 
 	public static void main(String argz[]) throws IOException{
 		FileReader.setInputOuput(argz[0], argz[1]);
-		//networksList is a list of networks
+		//networksList is a list of the 209 networks
 		ArrayList<NeuralNetwork> networksList = FileReader.readAllData();
-		//networks an array of all the networks
+		//networks an array of all 209 networks
 		NeuralNetwork[] networks = new NeuralNetwork[networksList.size()];
 		networksList.toArray(networks);
 		int dataCount = networksList.size();
@@ -42,6 +42,7 @@ public class Program {
 		FileReader.displayln("*************************");
 		FileReader.displayln("*************************");
 		FileReader.displayln("*************************");
+		FileReader.displayln("TESTING DATA: RESULTS:");
 		
 		//run testing code on the remaining 1/5 of the networksList
 		ArrayList<NeuralNetwork> testNetworkList = new ArrayList<NeuralNetwork>();
@@ -50,7 +51,8 @@ public class Program {
 		}
 		testNetworkList = finalTest(testNetworkList);
 		
-	
+		//STILL NEED TO IMPLEMENT THE REMAINDER OF THE 5-FOLD CROSS VALIDATION
+		
 		FileReader.closeIO();
 	}
 	
@@ -62,6 +64,9 @@ public class Program {
 		while(numIterations < 100){
 			//STEP 1: initialize weight matrixes in between each layer	
 			double maxError = 0;
+			double minError = 0;
+			double totalErrorSum = 0;
+			double errorSquaredSum = 0;
 			//STEP 2: For each network in from input vector x, assign values to all neurons in input layer
 			//NOTE: This was already done in FileReader when reading in and shuffling.
 			//For each network in c, propagate calculations up
@@ -79,20 +84,17 @@ public class Program {
 				network.output.in = getOutputSum(0,hiddenWeights, network.hiddenLayer);
 				network.output.a = sigmoidActivationFunction(network.output.in);
 				
-				//PRINT INFO. OUT AND DECIDE IF ARE FINISHED TRAINING:
-				FileReader.displayln("Expected output: " + network.inputLayer[4].a);
-				FileReader.displayln("Actual output for this line of data: " + network.output.a);
+				//ERROR CALCULATIONS
 				double outputError = Math.abs(network.inputLayer[4].a - network.output.a); //compare against published CPU performance which is at index 4
+				totalErrorSum += outputError;
+				errorSquaredSum += Math.pow(outputError,2);
 				if(outputError > maxError) maxError = outputError;
-//				if(okToStop == true){
-				if(outputError < errorThreshold){
-					FileReader.displayln("Done Training!");
-					FileReader.displayln("At data point: " + networkCount);
-					FileReader.displayln("In iteration: " + numIterations);
-					return c;
-				}
-				FileReader.displayln("Current Output Error: " + outputError);
-				FileReader.displayln("");
+				if(outputError < minError) minError = outputError;
+				//Display info about current error
+//				FileReader.displayln("Expected output: " + network.inputLayer[4].a);
+//				FileReader.displayln("Actual output for this line of data: " + network.output.a);
+//				FileReader.displayln("Current Output Error: " + outputError);
+//				FileReader.displayln("");
 				
 				/* Propagate deltas backward from output layer to input layer */
 				double[] deltaOutput = new double[1]; 
@@ -130,22 +132,25 @@ public class Program {
 				networkCount++;
 			}//finished with all networks in this division
 			
-			//check if weights have changed since last iteration (test for convergence)
+			//ERROR CALCULATIONS FOR ENTIRE ITERATION:
+			FileReader.displayln("ITERATION SUMMARY: ");
 			FileReader.displayln("IterationNumber: " + numIterations);
-			FileReader.displayln("MAX for entire training set: " + maxError);
-			if(okToStop == false){
-				okToStop = checkWeightDifference(oldInputWeights,inputWeights,oldHiddenWeights,hiddenWeights);
-				if(okToStop == true) FileReader.displayln("Weights have converged to less than the errorThreshold!");
+			FileReader.displayln("AVG error difference for 209 networks: " + totalErrorSum/209);
+			FileReader.displayln("Mean Squared Error for 209 networks: " + errorSquaredSum/2);
+			FileReader.displayln("MAX error difference for 209 networks: " + maxError);
+			FileReader.displayln("MIN error difference for 209 networks: " + minError);
+			FileReader.displayln(" ");
+
+			//check if weights have changed since last iteration (test for convergence)
+			okToStop = checkWeightDifference(oldInputWeights,inputWeights,oldHiddenWeights,hiddenWeights);
+			if(okToStop==true){
+				FileReader.displayln("Weights have converged to less than the errorThreshold!");
+				FileReader.displayln("Done Training!");
+				FileReader.displayln("In iteration: " + numIterations);
+				FileReader.displayln(" ");
+				return c;
 			}
-			//okToStop = checkWeightDifference(oldInputWeights,inputWeights,oldHiddenWeights,hiddenWeights);
-//			if(okToStop==true){
-//				FileReader.displayln("Weights have converged to less than the errorThreshold!");
-//			}
-//			if(maxError<0.4) {
-//				FileReader.displayln("Done!");
-//				return c;
-//			}
-			FileReader.displayln("");
+
 			
 			//if model has not converged and if totalError is not less than threshold, redo whole thing with new randomized weights
 			//keep going until reach max number of iterations.
@@ -154,7 +159,9 @@ public class Program {
 			numIterations++;
 			
 		}//done going through max iterations
-		
+		FileReader.displayln("Went through all iterations with no convergence... Iterations: " + numIterations);
+		FileReader.displayln(" ");
+		FileReader.displayln(" ");
 		return c;
 	}
 	
@@ -192,6 +199,13 @@ public class Program {
 		
 		return c;
 	}
+	
+//	public static double getMeanSquaredError(double errorSquaredSum){
+//		double mse = 0;
+//		mse = errorSquaredSum/2;
+//		
+//		return mse;
+//	}
 	
 	public static void printDelta(double[] a){
 		for(int i = 0; i<a.length; i++){
@@ -279,10 +293,10 @@ public class Program {
 	}
 	
 	public static void randomizeWeights(double[][] matrix){
-		//initialize randomWeight between -2.0 and +2.0
+		//initialize randomWeight between 0 and +2.0
 		Random rnd = new Random();
 		double minWeight = 0.0;
-		double maxWeight = 2.0;
+		double maxWeight = 1.0;
 
 		//initializing weights between input layer and hidden layer
 		for (int i = 0; i < matrix.length; i++){
