@@ -1,27 +1,562 @@
 ITERATION SUMMARY: 
 IterationNumber: 0
-AVG error difference for 209 networks: 0.5041030643273513
-Mean Squared Error for 209 networks: 33.95681053117046
-MAX error difference for 209 networks: 0.7515241005311966
+AVG error difference for 209 networks: 0.6207626707601778
+Mean Squared Error for 209 networks: 0.1985140901039221
+MAX error difference for 209 networks: 0.763504077909992
 MIN error difference for 209 networks: 0.0
  
 ITERATION SUMMARY: 
 IterationNumber: 1
-AVG error difference for 209 networks: 0.5140576554495099
-Mean Squared Error for 209 networks: 35.26477931760229
-MAX error difference for 209 networks: 0.7518357154247988
+AVG error difference for 209 networks: 0.638929778357379
+Mean Squared Error for 209 networks: 0.20933801272591127
+MAX error difference for 209 networks: 0.7601592757630802
 MIN error difference for 209 networks: 0.0
  
 ITERATION SUMMARY: 
 IterationNumber: 2
-AVG error difference for 209 networks: 0.5143629353817307
-Mean Squared Error for 209 networks: 35.32855397315391
-MAX error difference for 209 networks: 0.7500471502908056
+AVG error difference for 209 networks: 0.6395065988940984
+Mean Squared Error for 209 networks: 0.20980960350554057
+MAX error difference for 209 networks: 0.7575039149921785
 MIN error difference for 209 networks: 0.0
  
-Weights have converged to less than the errorThreshold!
+ITERATION SUMMARY: 
+IterationNumber: 3
+AVG error difference for 209 networks: 0.6400592456923837
+Mean Squared Error for 209 networks: 0.2103018325692553
+MAX error difference for 209 networks: 0.7544098430485031
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 4
+AVG error difference for 209 networks: 0.6404208857815922
+Mean Squared Error for 209 networks: 0.21064717676909242
+MAX error difference for 209 networks: 0.7508786901170806
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 5
+AVG error difference for 209 networks: 0.6406242664114536
+Mean Squared Error for 209 networks: 0.21085264734472164
+MAX error difference for 209 networks: 0.7476328901981034
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 6
+AVG error difference for 209 networks: 0.640737951591901
+Mean Squared Error for 209 networks: 0.2109737371774473
+MAX error difference for 209 networks: 0.7449825423876975
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 7
+AVG error difference for 209 networks: 0.6408035865536745
+Mean Squared Error for 209 networks: 0.21104794316491224
+MAX error difference for 209 networks: 0.7429030100932237
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 8
+AVG error difference for 209 networks: 0.6408429038688196
+Mean Squared Error for 209 networks: 0.21109563281423593
+MAX error difference for 209 networks: 0.7412779869238577
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 9
+AVG error difference for 209 networks: 0.6408672516078925
+Mean Squared Error for 209 networks: 0.21112769704757606
+MAX error difference for 209 networks: 0.7399954512559161
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 10
+AVG error difference for 209 networks: 0.6408827401378341
+Mean Squared Error for 209 networks: 0.21115013645240482
+MAX error difference for 209 networks: 0.7389683405396156
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 11
+AVG error difference for 209 networks: 0.640892785630666
+Mean Squared Error for 209 networks: 0.21116639470415688
+MAX error difference for 209 networks: 0.7381330130817634
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 12
+AVG error difference for 209 networks: 0.6408993715865388
+Mean Squared Error for 209 networks: 0.2111785317960099
+MAX error difference for 209 networks: 0.737443590249235
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 13
+AVG error difference for 209 networks: 0.6409036912020885
+Mean Squared Error for 209 networks: 0.21118782882274043
+MAX error difference for 209 networks: 0.7368668602490271
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 14
+AVG error difference for 209 networks: 0.6409064856738154
+Mean Squared Error for 209 networks: 0.21119511104596284
+MAX error difference for 209 networks: 0.7363785046136563
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 15
+AVG error difference for 209 networks: 0.640908228762276
+Mean Squared Error for 209 networks: 0.21120092710103375
+MAX error difference for 209 networks: 0.7359604638774087
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 16
+AVG error difference for 209 networks: 0.640909230989846
+Mean Squared Error for 209 networks: 0.21120565209833417
+MAX error difference for 209 networks: 0.7355991277691717
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 17
+AVG error difference for 209 networks: 0.6409097003840215
+Mean Squared Error for 209 networks: 0.21120954899247793
+MAX error difference for 209 networks: 0.7352840903982323
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 18
+AVG error difference for 209 networks: 0.6409097789486845
+Mean Squared Error for 209 networks: 0.21121280626913433
+MAX error difference for 209 networks: 0.7350072865437236
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 19
+AVG error difference for 209 networks: 0.6409095651584747
+Mean Squared Error for 209 networks: 0.21121556175537853
+MAX error difference for 209 networks: 0.7347623851098043
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 20
+AVG error difference for 209 networks: 0.6409091281744259
+Mean Squared Error for 209 networks: 0.21121791805595208
+MAX error difference for 209 networks: 0.7345443574656905
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 21
+AVG error difference for 209 networks: 0.6409085170270454
+Mean Squared Error for 209 networks: 0.21121995279761824
+MAX error difference for 209 networks: 0.7343491660514019
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 22
+AVG error difference for 209 networks: 0.6409077666662567
+Mean Squared Error for 209 networks: 0.21122172557404345
+MAX error difference for 209 networks: 0.734173536739834
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 23
+AVG error difference for 209 networks: 0.6409069020174198
+Mean Squared Error for 209 networks: 0.2112232827459409
+MAX error difference for 209 networks: 0.7340147902975163
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 24
+AVG error difference for 209 networks: 0.6409059407422804
+Mean Squared Error for 209 networks: 0.21122466081793592
+MAX error difference for 209 networks: 0.7338707160918743
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 25
+AVG error difference for 209 networks: 0.6409048951425448
+Mean Squared Error for 209 networks: 0.21122588885281116
+MAX error difference for 209 networks: 0.7337394763834354
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 26
+AVG error difference for 209 networks: 0.6409037734853977
+Mean Squared Error for 209 networks: 0.21122699022320354
+MAX error difference for 209 networks: 0.733619533032423
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 27
+AVG error difference for 209 networks: 0.6409025809321997
+Mean Squared Error for 209 networks: 0.21122798389985423
+MAX error difference for 209 networks: 0.7335095908254698
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 28
+AVG error difference for 209 networks: 0.6409013201896863
+Mean Squared Error for 209 networks: 0.2112288854107574
+MAX error difference for 209 networks: 0.7334085532655691
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 29
+AVG error difference for 209 networks: 0.6408999919631314
+Mean Squared Error for 209 networks: 0.21122970756329976
+MAX error difference for 209 networks: 0.7333154878104301
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 30
+AVG error difference for 209 networks: 0.6408985952647805
+Mean Squared Error for 209 networks: 0.21123046099339884
+MAX error difference for 209 networks: 0.7332295983505963
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 31
+AVG error difference for 209 networks: 0.6408971276133484
+Mean Squared Error for 209 networks: 0.21123115458670993
+MAX error difference for 209 networks: 0.7331502032946264
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 32
+AVG error difference for 209 networks: 0.6408955851483118
+Mean Squared Error for 209 networks: 0.21123179580398754
+MAX error difference for 209 networks: 0.7330767180450822
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 33
+AVG error difference for 209 networks: 0.6408939626742212
+Mean Squared Error for 209 networks: 0.21123239093364168
+MAX error difference for 209 networks: 0.7330086409540213
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 34
+AVG error difference for 209 networks: 0.6408922536438899
+Mean Squared Error for 209 networks: 0.2112329452881357
+MAX error difference for 209 networks: 0.732945542073142
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 35
+AVG error difference for 209 networks: 0.6408904500842988
+Mean Squared Error for 209 networks: 0.21123346335624404
+MAX error difference for 209 networks: 0.7328870541846907
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 36
+AVG error difference for 209 networks: 0.6408885424647097
+Mean Squared Error for 209 networks: 0.2112339489197693
+MAX error difference for 209 networks: 0.7328328657311243
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 37
+AVG error difference for 209 networks: 0.6408865195022952
+Mean Squared Error for 209 networks: 0.21123440514068825
+MAX error difference for 209 networks: 0.7327827153662494
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 38
+AVG error difference for 209 networks: 0.6408843678960962
+Mean Squared Error for 209 networks: 0.21123483462256257
+MAX error difference for 209 networks: 0.7327363879372792
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 39
+AVG error difference for 209 networks: 0.6408820719748411
+Mean Squared Error for 209 networks: 0.21123523944817907
+MAX error difference for 209 networks: 0.7326937117833179
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 40
+AVG error difference for 209 networks: 0.6408796132374166
+Mean Squared Error for 209 networks: 0.21123562119355174
+MAX error difference for 209 networks: 0.7326545573078119
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 41
+AVG error difference for 209 networks: 0.6408769697558018
+Mean Squared Error for 209 networks: 0.21123598091642004
+MAX error difference for 209 networks: 0.732618836857125
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 42
+AVG error difference for 209 networks: 0.6408741153977827
+Mean Squared Error for 209 networks: 0.21123631911489044
+MAX error difference for 209 networks: 0.7325865060222837
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 43
+AVG error difference for 209 networks: 0.6408710188089703
+Mean Squared Error for 209 networks: 0.2112366356485557
+MAX error difference for 209 networks: 0.7325575665860504
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 44
+AVG error difference for 209 networks: 0.6408676420676045
+Mean Squared Error for 209 networks: 0.21123692960960222
+MAX error difference for 209 networks: 0.7325320714769185
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 45
+AVG error difference for 209 networks: 0.6408639388868336
+Mean Squared Error for 209 networks: 0.21123719912416736
+MAX error difference for 209 networks: 0.7325101322866957
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 46
+AVG error difference for 209 networks: 0.6408598521799546
+Mean Squared Error for 209 networks: 0.2112374410528227
+MAX error difference for 209 networks: 0.7324919301926129
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 47
+AVG error difference for 209 networks: 0.6408553107119618
+Mean Squared Error for 209 networks: 0.2112376505406836
+MAX error difference for 209 networks: 0.7324777315531491
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 48
+AVG error difference for 209 networks: 0.6408502244136015
+Mean Squared Error for 209 networks: 0.21123782033710667
+MAX error difference for 209 networks: 0.7324679101111597
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 49
+AVG error difference for 209 networks: 0.6408444776932223
+Mean Squared Error for 209 networks: 0.21123793975273847
+MAX error difference for 209 networks: 0.7324629787981983
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 50
+AVG error difference for 209 networks: 0.6408379196753762
+Mean Squared Error for 209 networks: 0.21123799302962937
+MAX error difference for 209 networks: 0.7324636358759392
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 51
+AVG error difference for 209 networks: 0.6408303495872476
+Mean Squared Error for 209 networks: 0.21123795673222845
+MAX error difference for 209 networks: 0.7324708331035796
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 52
+AVG error difference for 209 networks: 0.6408214942340862
+Mean Squared Error for 209 networks: 0.21123779544893784
+MAX error difference for 209 networks: 0.7324858788021958
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 53
+AVG error difference for 209 networks: 0.6408109720905526
+Mean Squared Error for 209 networks: 0.2112374544641559
+MAX error difference for 209 networks: 0.7325105981440722
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 54
+AVG error difference for 209 networks: 0.640798233751604
+Mean Squared Error for 209 networks: 0.21123684674991303
+MAX error difference for 209 networks: 0.7325475910472125
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 55
+AVG error difference for 209 networks: 0.6407824584478364
+Mean Squared Error for 209 networks: 0.21123582873159344
+MAX error difference for 209 networks: 0.7326006643678464
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 56
+AVG error difference for 209 networks: 0.6407623637654011
+Mean Squared Error for 209 networks: 0.2112341524246013
+MAX error difference for 209 networks: 0.7326755928015868
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 57
+AVG error difference for 209 networks: 0.6407358305810484
+Mean Squared Error for 209 networks: 0.21123136384306895
+MAX error difference for 209 networks: 0.732781542153269
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 58
+AVG error difference for 209 networks: 0.640699095801026
+Mean Squared Error for 209 networks: 0.21122656679088436
+MAX error difference for 209 networks: 0.7329339419859402
+MIN error difference for 209 networks: 0.0
+ 
+NOTE: Weights have converged to less than 0.01!
+
+ITERATION SUMMARY: 
+IterationNumber: 59
+AVG error difference for 209 networks: 0.6406448026195816
+Mean Squared Error for 209 networks: 0.2112178039457266
+MAX error difference for 209 networks: 0.7331608835948256
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 60
+AVG error difference for 209 networks: 0.6405564809334466
+Mean Squared Error for 209 networks: 0.21120014475653517
+MAX error difference for 209 networks: 0.7335193961020501
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 61
+AVG error difference for 209 networks: 0.6403887550680948
+Mean Squared Error for 209 networks: 0.21115813358338487
+MAX error difference for 209 networks: 0.7341455651117434
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 62
+AVG error difference for 209 networks: 0.6399609678271352
+Mean Squared Error for 209 networks: 0.21102030302419186
+MAX error difference for 209 networks: 0.7354633526054638
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 63
+AVG error difference for 209 networks: 0.6374294738849783
+Mean Squared Error for 209 networks: 0.20989339498154302
+MAX error difference for 209 networks: 0.7397018726657453
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 64
+AVG error difference for 209 networks: 0.5357840764557337
+Mean Squared Error for 209 networks: 0.1544246909596549
+MAX error difference for 209 networks: 0.7327962347919692
+MIN error difference for 209 networks: 0.0
+ 
+ITERATION SUMMARY: 
+IterationNumber: 65
+AVG error difference for 209 networks: 0.43330863621300303
+Mean Squared Error for 209 networks: 0.09933112875864317
+MAX error difference for 209 networks: 0.6380450396108501
+MIN error difference for 209 networks: 0.0
+ 
 Done Training!
-In iteration: 2
+In iteration: 66
+ 
  
 *************************
 *************************
@@ -34,169 +569,169 @@ In iteration: 2
 *************************
 *************************
 TESTING DATA: RESULTS:
-Expected output: 0.15384615384615385
-Actual output for this line of data: 0.727144355942494
-Current Output Error: 0.5732982020963402
+Expected output: 0.057692307692307696
+Actual output for this line of data: 0.5036883548611047
+Current Output Error: 0.44599604716879704
+
+Expected output: 0.11538461538461539
+Actual output for this line of data: 0.5008179780507621
+Current Output Error: 0.3854333626661467
 
 Expected output: 0.057692307692307696
-Actual output for this line of data: 0.7255434689087826
-Current Output Error: 0.6678511612164749
+Actual output for this line of data: 0.509192816447599
+Current Output Error: 0.45150050875529124
+
+Expected output: 0.038461538461538464
+Actual output for this line of data: 0.5087869158820781
+Current Output Error: 0.4703253774205397
+
+Expected output: 0.23076923076923078
+Actual output for this line of data: 0.5030185743778363
+Current Output Error: 0.2722493436086055
+
+Expected output: 0.057692307692307696
+Actual output for this line of data: 0.5672016873365723
+Current Output Error: 0.5095093796442646
 
 Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7297507797027092
-Current Output Error: 0.7105200104719399
+Actual output for this line of data: 0.5023498088389002
+Current Output Error: 0.483119039608131
+
+Expected output: 0.057692307692307696
+Actual output for this line of data: 0.5244205077498073
+Current Output Error: 0.4667282000574996
+
+Expected output: 0.11538461538461539
+Actual output for this line of data: 0.5009703797426625
+Current Output Error: 0.38558576435804703
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5062538133149665
+Current Output Error: 0.48702304408419733
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.535606013998809
+Current Output Error: 0.5163752447680398
+
+Expected output: 0.09615384615384616
+Actual output for this line of data: 0.5135714949252342
+Current Output Error: 0.4174176487713881
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5996677088157221
+Current Output Error: 0.5804369395849528
+
+Expected output: 0.09615384615384616
+Actual output for this line of data: 0.5546108018964149
+Current Output Error: 0.45845695574256873
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5047366824296622
+Current Output Error: 0.48550591319889297
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5021430954191741
+Current Output Error: 0.4829123261884049
+
+Expected output: 0.3076923076923077
+Actual output for this line of data: 0.5000000444290955
+Current Output Error: 0.1923077367367878
 
 Expected output: 0.07692307692307693
-Actual output for this line of data: 0.7524993152479
-Current Output Error: 0.6755762383248232
+Actual output for this line of data: 0.5000001393674368
+Current Output Error: 0.4230770624443599
 
-Expected output: 0.11538461538461539
-Actual output for this line of data: 0.7289091536526219
-Current Output Error: 0.6135245382680065
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5002663635790091
+Current Output Error: 0.4810355943482399
 
-Expected output: 0.038461538461538464
-Actual output for this line of data: 0.7260163469594269
-Current Output Error: 0.6875548084978884
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5304525416865125
+Current Output Error: 0.5112217724557432
 
 Expected output: 0.057692307692307696
-Actual output for this line of data: 0.7246629682844321
-Current Output Error: 0.6669706605921244
-
-Expected output: 0.038461538461538464
-Actual output for this line of data: 0.7299905301660761
-Current Output Error: 0.6915289917045376
+Actual output for this line of data: 0.5279437577746545
+Current Output Error: 0.4702514500823468
 
 Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7243368893851789
-Current Output Error: 0.7051061201544097
+Actual output for this line of data: 0.5064908413187971
+Current Output Error: 0.48726007208802785
 
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7273604518941481
-Current Output Error: 0.7081296826633788
+Expected output: 0.11538461538461539
+Actual output for this line of data: 0.5003670142327975
+Current Output Error: 0.3849823988481821
 
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7393501369229198
-Current Output Error: 0.7201193676921506
+Expected output: 0.11538461538461539
+Actual output for this line of data: 0.5094733223408563
+Current Output Error: 0.3940887069562409
+
+Expected output: 0.057692307692307696
+Actual output for this line of data: 0.5012418034091797
+Current Output Error: 0.44354949571687197
 
 Expected output: 0.15384615384615385
-Actual output for this line of data: 0.7410806099622187
-Current Output Error: 0.5872344561160648
+Actual output for this line of data: 0.5978178243169915
+Current Output Error: 0.44397167047083763
 
 Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7354900288490291
-Current Output Error: 0.7162592596182599
+Actual output for this line of data: 0.5158498936012471
+Current Output Error: 0.4966191243704779
 
 Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7267149674641252
-Current Output Error: 0.707484198233356
+Actual output for this line of data: 0.50101680045162
+Current Output Error: 0.4817860312208508
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.521103766012105
+Current Output Error: 0.5018729967813357
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5004643586348083
+Current Output Error: 0.4812335894040391
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.519754540557013
+Current Output Error: 0.5005237713262437
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5056941696153597
+Current Output Error: 0.4864634003845905
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.528697318302806
+Current Output Error: 0.5094665490720367
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.6269547198166083
+Current Output Error: 0.6077239505858391
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5227864521053996
+Current Output Error: 0.5035556828746304
+
+Expected output: 0.019230769230769232
+Actual output for this line of data: 0.5000015900852003
+Current Output Error: 0.48077082085443107
 
 Expected output: 0.057692307692307696
-Actual output for this line of data: 0.7274579379285957
-Current Output Error: 0.669765630236288
-
-Expected output: 0.11538461538461539
-Actual output for this line of data: 0.727741596489765
-Current Output Error: 0.6123569811051496
-
-Expected output: 0.057692307692307696
-Actual output for this line of data: 0.7245009616536711
-Current Output Error: 0.6668086539613634
+Actual output for this line of data: 0.506850219893095
+Current Output Error: 0.44915791220078727
 
 Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7279236016546694
-Current Output Error: 0.7086928324239001
+Actual output for this line of data: 0.5000107511589861
+Current Output Error: 0.48077998192821686
 
 Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7290827749343846
-Current Output Error: 0.7098520057036153
+Actual output for this line of data: 0.5020029854738068
+Current Output Error: 0.4827722162430376
 
-Expected output: 0.057692307692307696
-Actual output for this line of data: 0.72607882743275
-Current Output Error: 0.6683865197404423
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7261837291153652
-Current Output Error: 0.7069529598845959
+Expected output: 0.09615384615384616
+Actual output for this line of data: 0.5001044078635284
+Current Output Error: 0.40395056170968224
 
 Expected output: 0.3076923076923077
-Actual output for this line of data: 0.7692126084778017
-Current Output Error: 0.461520300785494
+Actual output for this line of data: 0.5000035333316394
+Current Output Error: 0.19231122563933167
 
-Expected output: 0.09615384615384616
-Actual output for this line of data: 0.7354646234772485
-Current Output Error: 0.6393107773234024
-
-Expected output: 0.038461538461538464
-Actual output for this line of data: 0.7290750648496077
-Current Output Error: 0.6906135263880693
-
-Expected output: 0.057692307692307696
-Actual output for this line of data: 0.7263006875761973
-Current Output Error: 0.6686083798838895
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7282840815747175
-Current Output Error: 0.7090533123439482
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7298174401677987
-Current Output Error: 0.7105866709370294
-
-Expected output: 0.057692307692307696
-Actual output for this line of data: 0.7385040408636153
-Current Output Error: 0.6808117331713076
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7290576315372752
-Current Output Error: 0.7098268623065059
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.736294889914254
-Current Output Error: 0.7170641206834847
-
-Expected output: 0.09615384615384616
-Actual output for this line of data: 0.7260547693001992
-Current Output Error: 0.629900923146353
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7286867014058742
-Current Output Error: 0.7094559321751049
-
-Expected output: 0.11538461538461539
-Actual output for this line of data: 0.7310621027658474
-Current Output Error: 0.615677487381232
-
-Expected output: 0.057692307692307696
-Actual output for this line of data: 0.7251496272854088
-Current Output Error: 0.6674573195931011
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7261786825720398
-Current Output Error: 0.7069479133412705
-
-Expected output: 0.09615384615384616
-Actual output for this line of data: 0.7310456635325948
-Current Output Error: 0.6348918173787487
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7362872802820981
-Current Output Error: 0.7170565110513288
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7261219875476235
-Current Output Error: 0.7068912183168542
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7292479057222505
-Current Output Error: 0.7100171364914812
-
-Expected output: 0.019230769230769232
-Actual output for this line of data: 0.7251822126158323
-Current Output Error: 0.705951443385063
-
-Expected output: 0.3076923076923077
-Actual output for this line of data: 0.7306096155116197
-Current Output Error: 0.422917307819312
-
-TOTAL testing output error = 27.388533972608084
-Which is an avg of: 0.6680130237221484 percent error.
+TOTAL testing output error = 18.58930887036893
+Which is an avg of: 0.4533977773260715 percent error.

@@ -53,15 +53,19 @@ public class Program {
 		
 		//STILL NEED TO IMPLEMENT THE REMAINDER OF THE 5-FOLD CROSS VALIDATION
 		
+		
+		
+		
 		FileReader.closeIO();
 	}
 	
 	public static ArrayList<NeuralNetwork> backPropagation(ArrayList<NeuralNetwork> c){
 		//c is a list of networks
 		int numIterations = 0;
-		boolean okToStop = false;
+		boolean weightsConverged = false;
+		double MSE = 100;
 		doRandomization();
-		while(numIterations < 100){
+		while(MSE>errorThreshold && numIterations<5000){
 			//STEP 1: initialize weight matrixes in between each layer	
 			double maxError = 0;
 			double minError = 0;
@@ -126,31 +130,25 @@ public class Program {
 					hiddenWeights[j_index][0] = hiddenWeights[j_index][0] + (learningRate * j.a * deltaOutput[0]);
 					j_index++;
 				}
-				if(numIterations > 0){
-					okToStop = checkWeightDifference(oldInputWeights,inputWeights,oldHiddenWeights,hiddenWeights);
-				}
 				networkCount++;
 			}//finished with all networks in this division
 			
 			//ERROR CALCULATIONS FOR ENTIRE ITERATION:
 			FileReader.displayln("ITERATION SUMMARY: ");
 			FileReader.displayln("IterationNumber: " + numIterations);
-			FileReader.displayln("AVG error difference for 209 networks: " + totalErrorSum/209);
-			FileReader.displayln("Mean Squared Error for 209 networks: " + errorSquaredSum/2);
+			FileReader.displayln("AVG error difference for 209 networks: " + totalErrorSum/c.size());
+			MSE = errorSquaredSum/(2*c.size());
+			FileReader.displayln("Mean Squared Error for 209 networks: " + MSE);
 			FileReader.displayln("MAX error difference for 209 networks: " + maxError);
 			FileReader.displayln("MIN error difference for 209 networks: " + minError);
 			FileReader.displayln(" ");
 
 			//check if weights have changed since last iteration (test for convergence)
-			okToStop = checkWeightDifference(oldInputWeights,inputWeights,oldHiddenWeights,hiddenWeights);
-			if(okToStop==true){
-				FileReader.displayln("Weights have converged to less than the errorThreshold!");
-				FileReader.displayln("Done Training!");
-				FileReader.displayln("In iteration: " + numIterations);
-				FileReader.displayln(" ");
-				return c;
+			weightsConverged = checkWeightDifference(oldInputWeights,inputWeights,oldHiddenWeights,hiddenWeights);
+			if(weightsConverged==true){
+				FileReader.displayln("NOTE: Weights have converged to less than 0.01!");
+				FileReader.displayln("");
 			}
-
 			
 			//if model has not converged and if totalError is not less than threshold, redo whole thing with new randomized weights
 			//keep going until reach max number of iterations.
@@ -158,8 +156,10 @@ public class Program {
 			oldHiddenWeights = copyOver(hiddenWeights);
 			numIterations++;
 			
-		}//done going through max iterations
-		FileReader.displayln("Went through all iterations with no convergence... Iterations: " + numIterations);
+		}//done going through while loop
+	
+		FileReader.displayln("Done Training!");
+		FileReader.displayln("In iteration: " + numIterations);
 		FileReader.displayln(" ");
 		FileReader.displayln(" ");
 		return c;
@@ -200,13 +200,6 @@ public class Program {
 		return c;
 	}
 	
-//	public static double getMeanSquaredError(double errorSquaredSum){
-//		double mse = 0;
-//		mse = errorSquaredSum/2;
-//		
-//		return mse;
-//	}
-	
 	public static void printDelta(double[] a){
 		for(int i = 0; i<a.length; i++){
 			FileReader.displayln(""+a[i]);
@@ -225,6 +218,7 @@ public class Program {
 		return n;
 	}
 	public static boolean checkWeightDifference(double[][] oi, double[][]i, double[][] oh, double[][] h){
+		double weightThreshold = 0.01;
 		//max difference between old and current
 		double maxDiffInput = 0;
 		for(int x = 0; x<i.length; x++){
@@ -235,7 +229,7 @@ public class Program {
 //					FileReader.displayln("new maxDiffHidden!");
 					maxDiffInput = diff;
 				}
-				if(maxDiffInput > errorThreshold){
+				if(maxDiffInput > weightThreshold){
 //					FileReader.displayln("maxDiff in input = " + maxDiffInput);
 					return false;
 				}
@@ -252,7 +246,7 @@ public class Program {
 //					FileReader.displayln("new maxDiffHidden!");
 					maxDiffHidden = diff;
 				}
-				if(maxDiffHidden > errorThreshold){
+				if(maxDiffHidden > weightThreshold){
 //					FileReader.displayln("maxDiff in hidden = " + maxDiffHidden);
 					return false;
 				}
@@ -260,7 +254,7 @@ public class Program {
 		}
 //		FileReader.displayln("maxDiff in hidden = " + maxDiffHidden);
 		
-		if(maxDiffInput > errorThreshold || maxDiffInput > errorThreshold) return false;
+		if(maxDiffInput > weightThreshold || maxDiffInput > weightThreshold) return false;
 		
 		return true;
 	}
